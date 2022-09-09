@@ -4,18 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Clon de google</title>
+   <title>Clon de google</title>
+   <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
     <header>
+        <nav class="nav-top">
+            <ul class="nav-elements top-right">
+                <li>
+                    <a href="https://www.gmail-com">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://www.googleimagenes.com">Imagenes</a>
+                </li>
+                <li id="menu"></li>
+                <li class="perfil">
+                    <img id="perfil" alt="cuenta de usuario">
+                </li>
+            </ul>
+        </nav>
 
     </header>
     <main>
-
+        <img src="./recursos/logo-Google.png" id="logo_google" alt="Logo de google">
+        <form id="barra-de-busqueda">
+            <input type="search" name="se">
+        </form>
+            <div>
+                <button>Buscar con Google</button>
+                <button>Voy a tener suerte</button>
+            </div>
+            <p>Ofrecido por Google en <a href="">English</a></p>
     </main>
     <footer>
-
+        <p>Colombia</p>
+        <nav>
+            <ul class="nav-elements bottom-left">
+                <li>
+                    <a href="">Sobre Google</a>
+                </li>
+                <li>
+                    <a href="">Publicidad</a>
+                </li>
+                <li>
+                    <a href="">Negocios</a>
+                </li>
+                <li>
+                    <a href="">Cómo funciona la busqueda</a>
+                </li>
+            </ul>
+            <ul class="nav-elements bottom-right">
+                <li>
+                    <a href="">Privacidad</a>
+                </li>
+                <li>
+                    <a href="">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Preferencias</a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
