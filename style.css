@@ -53,3 +53,16 @@ main{
 #logo_google{
     width: 300px;
 }
+
+.perfil {
+    background-color: purple;
+    box-sizing: content-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+}
+
+.perfil a{
+    color: white;
+
+}
