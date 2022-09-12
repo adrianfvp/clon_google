@@ -31,12 +31,13 @@ body{
 }
 
 .nav-elements * {
-    margin: 0 7px;
+    margin: 0 7px;;
 }
 
 .top-right{
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
+    align-items: center; 
 }
 
 .bottom-right{
@@ -54,15 +55,31 @@ main{
     width: 300px;
 }
 
-.perfil {
-    background-color: purple;
-    box-sizing: content-box;
+#menu-nav-icon{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.perfil img{
     width: 30px;
     height: 30px;
     border-radius: 999px;
 }
 
-.perfil a{
-    color: white;
+#barra-de-busqueda input{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
 
+#barra-de-busqueda{
+    width: 545px;
+    height: 19px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    margin-bottom: 15px;
 }
